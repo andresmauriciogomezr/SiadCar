@@ -104,7 +104,8 @@
 			  			<!--<a class="btn" href="<?php echo $this->createUrl('vehiculos/create'); ?>">Severo</a>-->
 			  			<a class="btn" onclick="botonDagnios()">Ver daños del vehículo</a>
 				  	</div>
-
+				  	<!-- contendrá los daños del vehículo-->
+					<input id="dagnios" name="dagnios" hidden>
 
 						
 					<div id="panelDagnios" hidden>
@@ -236,7 +237,7 @@
 		ctx.font = "10px Arial";
 		ctx.fillText(dagnios.length,x,y);
 
-		console.log(dagnios)
+		//console.log(dagnios)
     });
 
     $('#izquierdo').on('click', function(e){
@@ -256,7 +257,7 @@
 
 		ctx.font = "10px Arial";
 		ctx.fillText(dagnios.length,x,y);
-		console.log(dagnios)
+		//console.log(dagnios)
 
     });
 
@@ -277,7 +278,7 @@
 
 		ctx.font = "10px Arial";
 		ctx.fillText(dagnios.length,x,y);
-		console.log(dagnios)
+		//console.log(dagnios)
 
     });
 

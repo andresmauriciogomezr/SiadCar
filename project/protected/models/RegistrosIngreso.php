@@ -80,6 +80,7 @@ class RegistrosIngreso extends CActiveRecord
 			'fecha' => 'Fecha',
 			'recibio' => 'Recibio',
 			'estado' => 'Estado',
+			'severo' => 'Severo',
 		);
 	}
 
@@ -112,6 +113,7 @@ class RegistrosIngreso extends CActiveRecord
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('recibio',$this->recibio);
 		$criteria->compare('estado',$this->estado);
+		$criteria->compare('severo',$this->severo);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

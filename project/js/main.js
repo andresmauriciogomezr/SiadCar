@@ -109,10 +109,15 @@ jQuery(document).ready(function($) {
 $.sendFormAjax = function($form, $callback){
     $.showLoading();
 
+
+    $("#dagnios").val(JSON.stringify(dagnios));
+
     $form.find('.form-ajax__control__disable').prop("disabled", false);
 
     $formHasImage = ($form.is('[enctype]') && $form.attr('enctype') == 'multipart/form-data');
     $data = ($formHasImage)?(new FormData($form[0])):$form.serialize();
+    
+    //console.log($data);
     $.ajax({
         url: $form.attr('action'),
         type: $form.attr('method'),
@@ -122,7 +127,8 @@ $.sendFormAjax = function($form, $callback){
         contentType: ($formHasImage)?false:'application/x-www-form-urlencoded; charset=UTF-8',
     })
     .done($callback)
-    .fail(function() {
+    .fail(function(data) {
+        //console.log(data);
         $.showNotify('Error', 'Ocurrio un error durante la conexión con el servidor. Intente mas tarde!!!', 'error');
     })
     .always(function() {
@@ -179,6 +185,7 @@ $.loadSelectAjax = function($select, $selectDepend){
             }
         })
         .fail(function() {
+            //console.lgo("acá");
             $.showNotify('Error', 'Ocurrio un error durante la conexión con el servidor. Intente mas tarde!!!', 'error');
         })
         .always(function() {

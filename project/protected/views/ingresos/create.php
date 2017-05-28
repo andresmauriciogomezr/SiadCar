@@ -8,5 +8,7 @@
 			'model'=>$model,
 
 			'tipos'=>$tipos,
-			'elementos'=>$elementos
+			'elementos'=>$elementos,
+
+			'dagnios' => $dagnios
 		)); ?>

@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 				else
 					$.clearAreaVehiculo();
 			})
-			.fail(function() {
+			.fail(function(data) {
 				$.showNotify('Error', 'Ocurrio un error durante la conexión con el servidor. Intente mas tarde!!!', 'error');
 				$.clearAreaVehiculo();
 			})

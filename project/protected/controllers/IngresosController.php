@@ -71,16 +71,32 @@ class IngresosController extends Controller{
 			'model'=>$model,
 
 			'tipos'=>Tools::toListSelect($tipos, 'id', 'nombre'),
-			'elementos'=>$elementos
+			'elementos'=>$elementos,
+			'dagnios' => ''
 		));
+	}
+
+	public function create_dagnios($dagnios){
+		$dagnios = json_decode($dagnios);
+		//foreach ($variable as $key => $value) {
+		foreach ($dagnios as $dagnio) {
+			print_r($dagnio->descripcion);
+		}
 	}
 
 	public function actionCreate__ajax(){
 		if(Yii::app()->getRequest()->getIsAjaxRequest() && isset($_POST['Vehiculos']) && isset($_POST['RegistrosIngreso'])){
+
 			$response = array('status'=>'error');
 			
 			$vehiculo = Vehiculos::model()->findByAttributes(array('id'=>$_POST['RegistrosIngreso']['vehiculo'], 'placas'=>$_POST['Vehiculos']['placas'], 'estado'=>1));
 			if($vehiculo != null){
+
+				if(isset($_POST['dagnios']) && $_POST['dagnios'] != ''){
+					$this->create_dagnios($_POST['dagnios']);
+					return;
+				}
+
 				$model = new RegistrosIngreso;
 
 				$model->attributes=$_POST['RegistrosIngreso'];
