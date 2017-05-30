@@ -22,7 +22,7 @@ class IngresosController extends Controller{
 		return array(
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array(
-					'create','create__ajax',
+					'create','create__ajax',  'getDagnios',
 					'print',
 				),
 				'users'=>array('@'),
@@ -30,7 +30,7 @@ class IngresosController extends Controller{
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array(
-					'update','update__ajax',
+					'update','update__ajax', 'getDagnios',
 					'delete_ingreso',
 
 					'mantenimientos_delete',
@@ -76,11 +76,17 @@ class IngresosController extends Controller{
 		));
 	}
 
-	public function create_dagnios($dagnios){
+	public function create_dagnios($dagnios, $ingressId){
 		$dagnios = json_decode($dagnios);
 		//foreach ($variable as $key => $value) {
 		foreach ($dagnios as $dagnio) {
-			print_r($dagnio->descripcion);
+			$model = new Damages;
+			$model->ingreso_id = $ingressId;
+			$model->ubication = $dagnio->ubicacion;
+			$model->x = $dagnio->x;
+			$model->y = $dagnio->y;
+			$model->description = $dagnio->descripcion;
+			$model->save();
 		}
 	}
 
@@ -92,10 +98,7 @@ class IngresosController extends Controller{
 			$vehiculo = Vehiculos::model()->findByAttributes(array('id'=>$_POST['RegistrosIngreso']['vehiculo'], 'placas'=>$_POST['Vehiculos']['placas'], 'estado'=>1));
 			if($vehiculo != null){
 
-				if(isset($_POST['dagnios']) && $_POST['dagnios'] != ''){
-					$this->create_dagnios($_POST['dagnios']);
-					return;
-				}
+				
 
 				$model = new RegistrosIngreso;
 
@@ -117,6 +120,14 @@ class IngresosController extends Controller{
             	$model->elementos = CJSON::encode($elementos);
 
 				if($model->save()){
+
+
+					if(isset($_POST['dagnios']) && $_POST['dagnios'] != ''){
+						$this->create_dagnios($_POST['dagnios'], $model->id);
+					}
+
+
+
 					$response['title'] = 'Hecho';
 	            	$response['message'] = 'Se hizo el registro de ingreso del vehiculo con placas '.$vehiculo->placas.'. ¿Desea ver el comprobante de ingreso?';
 	            	$response['status'] = 'success';
@@ -188,6 +199,11 @@ class IngresosController extends Controller{
 		));
 	}
 
+	public function actionGetDagnios($id){
+		$dagnios = Damages::model()->findAllByAttributes( array('ingreso_id'=>$id) );
+		echo CJSON::encode($dagnios);
+	}
+
 	public function actionUpdate($id){
 		$load = Yii::app()->getClientScript();
 		$load->registerScriptFile(Yii::app()->request->baseUrl.'/js/controllers/ingresos.js',CClientScript::POS_END);
@@ -199,6 +215,9 @@ class IngresosController extends Controller{
 
 		$vehiculo = Vehiculos::model()->findByPk($model->vehiculo);
 
+		$dagnios = Damages::model()->findAllByAttributes( array('ingreso_id'=>$model->id) );
+		//echo $dagnios;
+
 		$this->render('update', array(
 			'model'=>$model,
 
@@ -206,6 +225,7 @@ class IngresosController extends Controller{
 			'elementos'=>$elementos,
 
 			'vehiculo'=>$this->renderPartial('_propietario_info', array('vehiculo'=>$vehiculo), true),
+			'dagnios'=> $dagnios,
 		));
 	}
 

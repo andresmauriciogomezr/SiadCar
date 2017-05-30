@@ -4361,3 +4361,982 @@ REQUEST_URI=/SiadCar/project/ingresos/create__ajax
 in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (81)
 in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (94)
 in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 14:31:10 [error] [php] include(Damage.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(83): spl_autoload_call()
+#1 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(126): IngresosController->create_dagnios()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate__ajax()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create__ajax
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (83)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (126)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 14:32:35 [error] [php] include(Damage.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(83): spl_autoload_call()
+#1 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(126): IngresosController->create_dagnios()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate__ajax()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create__ajax
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (83)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (126)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 14:58:41 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 14:58:53 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 14:59:20 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:00:02 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:00:09 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:00:21 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:02:14 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:02:23 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:02:42 [error] [php] include(Dagnios.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SiadCar\project\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(213): spl_autoload_call()
+#1 unknown(0): IngresosController->actionUpdate()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (213)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 15:06:38 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (125)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:07:08 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (125)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:09:08 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (128)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:09:20 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (128)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:10:01 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (128)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:10:21 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (128)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:11:05 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php(14): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): IngresosController->renderInternal()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#6 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(76): IngresosController->render()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/create
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php (128)
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\create.php (14)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (76)
+2017/05/30 15:40:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/update...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/update/ingresos/sisas
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:43:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/update...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/update/ingresos/sisas?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:50:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/update...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/update/$this-%3EcreateUrl('ingresos/sisas')?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:51:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php:153
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate__ajax()
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('create__ajax')
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/create...')
+#11 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/SiadCar/project/ingresos/create__ajax?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php:153
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate__ajax()
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('create__ajax')
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/create...')
+#11 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/SiadCar/project/ingresos/create__ajax?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php:153
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(49): IngresosController->actionCreate__ajax()
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('create__ajax')
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/create...')
+#11 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/SiadCar/project/ingresos/create__ajax?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sisas" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('sisas')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('sisas')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/sisas')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/ingresos/sisas?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 15:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ingresos" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('ingresos')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('ingresos')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('vehiculos/ingre...')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/vehiculos/ingresos/sisas
+---
+2017/05/30 15:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ingresos" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('ingresos')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('ingresos')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('vehiculos/ingre...')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/vehiculos/ingresos/sisas
+---
+2017/05/30 15:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ingresos" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('ingresos')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('ingresos')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('vehiculos/ingre...')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/vehiculos/ingresos/sisas
+---
+2017/05/30 15:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ingresos" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('ingresos')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('ingresos')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('vehiculos/ingre...')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/vehiculos/ingresos/prueba
+---
+2017/05/30 15:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ingresos" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('ingresos')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('ingresos')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('vehiculos/ingre...')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/vehiculos/ingresos/prueba
+---
+2017/05/30 15:57:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "prueba" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('prueba')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('prueba')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/prueba')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/ingresos/prueba
+---
+2017/05/30 15:58:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('prueba')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/prueba')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/prueba
+---
+2017/05/30 15:58:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('prueba')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/Prueba')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/Prueba
+---
+2017/05/30 15:59:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('prueba')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/Prueba')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/Prueba
+---
+2017/05/30 16:02:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('prueba')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/Prueba')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/Prueba
+---
+2017/05/30 16:02:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('prueba')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/prueba')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/prueba
+---
+2017/05/30 16:02:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/View')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/View
+---
+2017/05/30 16:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "sisas" solicitada.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(270): CController->missingAction('sisas')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('sisas')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/sisas')
+#3 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SiadCar/project/ingresos/sisas?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:05:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('sisas')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/sisas')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/sisas?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:05:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/update...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/update/index.php?r=app/sisas&undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controllername/sisas"' in C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('controllername/...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SiadCar/project/index.php/controllername/sisas?undefined=
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controllername/sisas"' in C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('controllername/...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SiadCar/project/index.php/controllername/sisas
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:10:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('sisas')
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/sisas')
+#9 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/SiadCar/project/ingresos/sisas
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:20:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:23:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:24:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:26:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:27:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:27:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:29:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\SiadCar\project\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('getdagnios')
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/getDag...')
+#10 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/SiadCar/project/ingresos/getDagnios
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/update/88
+---
+2017/05/30 16:34:17 [error] [exception.CException] exception 'CException' with message 'La propiedad "RegistrosIngreso"."i" no se encuentra definida.' in C:\xampp\htdocs\SiadCar\project\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\db\ar\CActiveRecord.php(145): CComponent->__get('i')
+#1 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\_form.php(223): CActiveRecord->__get('i')
+#2 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\update.php(16): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#10 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(228): CController->render('update', Array)
+#11 [internal function]: IngresosController->actionUpdate('88')
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(IngresosController), Array)
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(IngresosController), Object(ReflectionMethod), Array)
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): CController->run('update')
+#23 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController('ingresos/update')
+#24 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\SiadCar\project\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/SiadCar/project/ingresos/update/88
+HTTP_REFERER=http://localhost/SiadCar/project/ingresos/admin
+---
+2017/05/30 16:56:46 [error] [php] Undefined variable: model (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\view.php:261)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(199): IngresosController->render()
+#3 unknown(0): IngresosController->actionView()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/88
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\view.php (261)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (199)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)
+2017/05/30 16:59:12 [error] [php] Undefined variable: model (C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\view.php:262)
+Stack trace:
+#0 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(869): IngresosController->renderFile()
+#1 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(782): IngresosController->renderPartial()
+#2 C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php(199): IngresosController->render()
+#3 unknown(0): IngresosController->actionView()
+#4 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\SiadCar\project\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(133): IngresosController->runAction()
+#8 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CInlineFilter.php(58): IngresosController->filterAccessControl()
+#11 C:\xampp\htdocs\SiadCar\project\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\SiadCar\project\framework\web\CController.php(265): IngresosController->runActionWithFilters()
+#14 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(282): IngresosController->run()
+#15 C:\xampp\htdocs\SiadCar\project\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\SiadCar\project\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\SiadCar\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/SiadCar/project/ingresos/88
+in C:\xampp\htdocs\SiadCar\project\protected\views\ingresos\view.php (262)
+in C:\xampp\htdocs\SiadCar\project\protected\controllers\IngresosController.php (199)
+in C:\xampp\htdocs\SiadCar\project\index.php (13)

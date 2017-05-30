@@ -49,6 +49,7 @@
 			<div class="widget">
 				<div class="widget__header">
 					<h2>Ingreso Vehiculo</h2>
+					<p id="id_ingreso" hidden><?php echo (isset($model)?$model->id:"");?></p>
 				</div>
 				<div class="widget__body padding">
 					<div class="row">
@@ -121,13 +122,13 @@
 							<div class="col-xs-4">
 								<div class="table-responsive">
 								  <table id="danos" class="table table-striped table-bordered">
-								    <tr>
-								    	<td><strong>N° Daño</strong></td>
-								    	<td><strong>Descipción</strong></td>
-								    </tr>
-								    <tr>
-								    	
-								    </tr>
+								  	<thead>
+									    <tr>								    
+									    	<td><strong>N° Daño</strong></td>
+									    	<td><strong>Descipción</strong></td>								    	
+									    </tr>
+									</thead>
+
 								  </table>
 								</div>
 							</div>
@@ -211,7 +212,51 @@
 	
 	$( document ).ready(function() {
 	  dibujarCanvas();
+	  pedirDagnios();
 	});
+
+	function pedirDagnios(){
+		var id = $("#id_ingreso");
+		var data = {id : id};
+		if (id != "") {
+			$.ajax({
+		        url: '<?php $ruta = "ingresos/getDagnios?id=$model->id"; echo $this->createUrl($ruta)?>',
+		        type: 'POST',
+		        dataType: 'json',
+		        //data: 'data',
+		    })
+		    .done(function(data){
+		    	for (var i = data.length - 1; i >= 0; i--) {
+		    		$("#danos").append('<tr>'+								    
+									    	'<td>'+ (i+1)+'</td>'+
+									    	'<td>'+data[i].description+'</td>'+
+									    '</tr>');
+		    		dibujarDagnioSuperior(data[i], (i+1));
+		    	}
+		    	$.showNotify('Succes', 'severo', 'success');
+		    })
+		    .fail(function(data) {
+		    	//console.log(data);
+		        $.showNotify('Error', 'Paila', 'error');
+		    })
+		    .always(function() {
+		        $.hiddenLoading();
+		    });
+		}
+	}
+
+	function dibujarDagnioSuperior(dagnio, index){
+		var canvas = document.getElementById(dagnio.ubication);
+	    var ctx = canvas.getContext("2d");
+
+		var rect = canvas.getBoundingClientRect();
+		x = dagnio.x
+		y = dagnio.y
+
+		ctx.font = "10px Arial";
+		ctx.fillText(index,x,y);
+		console.log("sisas");
+	}
 
 	function dibujarCanvas(){
 		dibujarSuperior();

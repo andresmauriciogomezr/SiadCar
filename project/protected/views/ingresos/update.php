@@ -10,5 +10,7 @@
 			'tipos'=>$tipos,
 			'elementos'=>$elementos,
 
-			'vehiculo'=>$vehiculo
+			'vehiculo'=>$vehiculo,
+			'dagnios'=> $dagnios
+
 		)); ?>

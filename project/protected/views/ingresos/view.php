@@ -109,6 +109,61 @@
 					</div>
 				</div>
 			</div>
+
+
+
+
+					<div>
+			  			<!--<a class="btn" href="<?php echo $this->createUrl('vehiculos/create'); ?>">Severo</a>-->
+			  			<a class="btn" onclick="botonDagnios()">Ver daños del vehículo</a>
+				  	</div>
+				  	<!-- contendrá los daños del vehículo-->
+					<input id="dagnios" name="dagnios" hidden>
+
+						
+					<div id="panelDagnios" hidden>
+						<div class="widget__header">
+							<h2>Daños del vehículo</h2>
+						</div>
+
+						<div class="row">
+							<div class="col-xs-8">
+								<canvas id="superior" style="border:1px solid #000000;">
+								</canvas>
+							</div>
+							<div class="col-xs-4">
+								<div class="table-responsive">
+								  <table id="danos" class="table table-striped table-bordered">
+								  	<thead>
+									    <tr>								    
+									    	<td><strong>N° Daño</strong></td>
+									    	<td><strong>Descipción</strong></td>								    	
+									    </tr>
+									</thead>
+
+								  </table>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-xs-6">
+								<canvas id="izquierdo" style="border:1px solid #000000;">
+								</canvas>
+							</div>
+							<div class="col-xs-6">
+								<canvas id="derecho" style="border:1px solid #000000;">
+								</canvas>
+							</div>
+						</div>
+
+					</div>
+					<br>
+
+
+
+
+
 		</div>
 	</div>
 </div>
@@ -190,3 +245,118 @@
 		</div>
 	</div>
 <?php } ?> 
+
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/vendor/jquery.min.js"></script>
+<script type="text/javascript">
+	
+	$( document ).ready(function() {
+	  dibujarCanvas();
+	  pedirDagnios();
+	});
+
+	function pedirDagnios(){
+		var id = $("#id_ingreso");
+		var data = {id : id};
+		if (id != "") {
+			$.ajax({
+		        url: '<?php $ruta = "ingresos/getDagnios?id=$ingreso->id"; echo $this->createUrl($ruta)?>',
+		        type: 'POST',
+		        dataType: 'json',
+		        //data: 'data',
+		    })
+		    .done(function(data){
+		    	for (var i = data.length - 1; i >= 0; i--) {
+		    		$("#danos").append('<tr>'+								    
+									    	'<td>'+ (i+1)+'</td>'+
+									    	'<td>'+data[i].description+'</td>'+
+									    '</tr>');
+		    		dibujarDagnioSuperior(data[i], (i+1));
+		    	}
+		    	$.showNotify('Succes', 'severo', 'success');
+		    })
+		    .fail(function(data) {
+		    	//console.log(data);
+		        $.showNotify('Error', 'Paila', 'error');
+		    })
+		    .always(function() {
+		        $.hiddenLoading();
+		    });
+		}
+	}
+
+	function dibujarDagnioSuperior(dagnio, index){
+		var canvas = document.getElementById(dagnio.ubication);
+	    var ctx = canvas.getContext("2d");
+
+		var rect = canvas.getBoundingClientRect();
+		x = dagnio.x
+		y = dagnio.y
+
+		ctx.font = "10px Arial";
+		ctx.fillText(index,x,y);
+		console.log("sisas");
+	}
+
+
+	function dibujarCanvas(){
+		dibujarSuperior();
+		dibujarIzquierdo();
+		dibujarDerecho();
+	}
+
+	function botonDagnios(){
+    		$('#panelDagnios').toggle();
+    }
+
+
+	function dibujarSuperior(){
+
+		var canvas = document.getElementById('superior');
+
+	    var imageObj = new Image();
+	    imageObj.onload = function() {
+	      ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+	    };
+
+	    var ctx = canvas.getContext("2d");
+		ctx.font = "30px Arial";
+
+	    //imageObj.src = "carro.png";
+	    imageObj.src = "<?php print Yii::app()->request->baseUrl;?>/images/dagnios/superior.JPG";
+	}
+
+	function dibujarIzquierdo(){
+
+		var canvas = document.getElementById('izquierdo');
+
+	    var imageObj = new Image();
+	    imageObj.onload = function() {
+	      ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+	    };
+
+	    var ctx = canvas.getContext("2d");
+		ctx.font = "30px Arial";
+
+	    //imageObj.src = "carro.png";
+	    imageObj.src = "<?php print Yii::app()->request->baseUrl;?>/images/dagnios/lateral.JPG";
+	    
+	}
+
+	function dibujarDerecho(){
+
+		var canvas = document.getElementById('derecho');
+
+	    var imageObj = new Image();
+	    imageObj.onload = function() {
+	      ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+	    };
+
+	    var ctx = canvas.getContext("2d");
+		ctx.font = "30px Arial";
+
+	    //imageObj.src = "carro.png";
+	    imageObj.src = "<?php print Yii::app()->request->baseUrl;?>/images/dagnios/lateral2.JPG";
+	}	
+
+
+</script>
